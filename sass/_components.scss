@@ -201,3 +201,14 @@
     color: var(--color-grey-light-1);
   }
 }
+
+////////////////////////////////////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
