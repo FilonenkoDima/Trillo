@@ -122,3 +122,37 @@
     color: inherit;
   }
 }
+
+////////////////////////////////////////////////////
+// SIDE NAVIGATION
+.side-nav {
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+////////////////////////////////////////////////////
+// LEGAL TEXT
+.legal {
+  font-size: 1.2rem;
+  color: var(--color-grey-light-4);
+  text-align: center;
+  padding: 2.5rem;
+  transition: all 0.2s;
+
+  & a:link,
+  & a:visited {
+    color: inherit;
+  }
+
+  & a:hover {
+    color: var(--color-grey-light-1);
+  }
+}
